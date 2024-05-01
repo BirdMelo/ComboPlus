@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --BackgroundColor:#00030C;
+    --TitleColor:#FFFFFF;
+    --TextColor:#F9F9F9;
+    --SubTextColor:#C0C0C0;
+    --interactColor:#167BF7;
+    
+    --font: "Inter", sans-serif;
+}
+
+body{
+    background-color: var(--BackgroundColor);
+    font-family: var(--font);
+    color: var(--TextColor);
+    font-weight: 400;
+    font-size: 16px;
+}
+.conteiner__title{
+    color: var(--TitleColor);
+    font-family: var(--font);
+    font-weight: 700;
+    font-size: 28px;
+
+}
+.backgroundConfig{
+    background-image: url("/aluraComboPlus/background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.conteiner{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    
+}
+.conteiner__button{
+    text-decoration: none;
+    color: var(--TitleColor);
+    background-color: var(--interactColor);
+    padding: 1em;
+    border-radius: 8px;
+    display: block;
+}
+.conteiner__button__secundary{
+    border: solid 1px var(--TitleColor);
+    background-color: transparent;
+}
+.conteiner__warning{
+    color: var(--SubTextColor);
+    font-size: 12px;
+}
