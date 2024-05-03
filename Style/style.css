@@ -29,17 +29,25 @@ body{
     font-size: 28px;
 
 }
-.backgroundConfig{
+.primary{
     background-image: url("/aluraComboPlus/background.png");
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 }
 .conteiner{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    text-align: center;
+    align-items: center;
     
+}
+.conteiner__box{
+    margin: 0 5em;
+}
+.conteiner__picture{
+    margin: 1.5em 0 3.5em 0;
 }
 .conteiner__button{
     text-decoration: none;
@@ -48,6 +56,7 @@ body{
     padding: 1em;
     border-radius: 8px;
     display: block;
+    margin: 0 2em 1em ;
 }
 .conteiner__button__secundary{
     border: solid 1px var(--TitleColor);
@@ -56,4 +65,36 @@ body{
 .conteiner__warning{
     color: var(--SubTextColor);
     font-size: 12px;
+}
+
+.secundary{
+    margin: 0 10em;
+}
+.secundary__picture{
+    width: 80%;
+}
+.conteiner__description__title{
+    color: var(--TitleColor);
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0.2em;
+}
+.tertiary{
+    margin: 0 7.5em;
+}
+.tertiary__button{
+    display: inline-block;
+    margin: 1em 0 0 0;
+}
+.conteiner__description{
+    padding: 0 2.18em 0 0;
+}
+.tertiary__screens{
+    padding: 0 0 0 2.18em;
+}
+.quaternar{
+    
+}
+.quarternary__picture{
+    width: 50%;
 }
