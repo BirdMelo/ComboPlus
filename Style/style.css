@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
 }
-
 :root{
     --BackgroundColor:#00030C;
     --TitleColor:#FFFFFF;
@@ -14,7 +13,6 @@
     
     --font: "Inter", sans-serif;
 }
-
 body{
     background-color: var(--BackgroundColor);
     font-family: var(--font);
@@ -29,6 +27,8 @@ body{
     font-size: 28px;
 
 }
+
+
 .primary{
     background-image: url("/aluraComboPlus/background.png");
     background-repeat: no-repeat;
@@ -66,35 +66,96 @@ body{
     color: var(--SubTextColor);
     font-size: 12px;
 }
+.conteiner__description{
+    padding-right: 2.18em;
+}
+
 
 .secundary{
     margin: 0 10em;
 }
 .secundary__picture{
-    width: 80%;
+    width: 70%;
 }
-.conteiner__description__title{
+.conteiner__subtitles{
     color: var(--TitleColor);
     font-weight: 700;
     font-size: 48px;
     margin-bottom: 0.2em;
 }
+
+
 .tertiary{
     margin: 0 7.5em;
 }
 .tertiary__button{
     display: inline-block;
-    margin: 1em 0 0 0;
-}
-.conteiner__description{
-    padding: 0 2.18em 0 0;
+    margin-top: 1em;
 }
 .tertiary__screens{
-    padding: 0 0 0 2.18em;
+    padding-left: 2.18em;
 }
-.quaternar{
+
+.quaternary{
     
 }
+.quarternary__div{
+    padding-left: 1.375em;
+}
 .quarternary__picture{
-    width: 50%;
+    width: 34.1875em;
+    padding-right: 1.375em;
+}
+
+
+.devices{
+    align-items: center;
+    text-align: center;
+    margin: 0;
+}
+.devices__types{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.devices__pictures{
+    width: 21.1875em;
+}
+.devices__names{
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--TitleColor);
+}
+
+
+footer{
+    margin-top: 9em;
+    margin-left: 0em;
+    text-align: center;
+}
+.footer__picture{
+    
+}
+.footer__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1em;
+    padding-top: 2.543em;
+}
+.footer__link{
+    text-decoration: none;
+    color: var(--TitleColor);
+}
+.footer__link:hover{
+    color: var(--interactColor);
+}
+.footer__link:active{
+    border: solid var(--TitleColor) 1px;
+    border-radius: 16px;
+    padding: 10px;
+}
+.footer__text{
+    margin-top: 1.5em;
+    color: var(--SubTextColor);
 }
