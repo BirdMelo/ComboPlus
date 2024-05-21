@@ -30,7 +30,7 @@ body{
 
 
 .primary{
-    background-image: url("aluraComboPlus/background.png");
+    background-image: url("../aluraComboPlus/background.png");
     background-repeat: no-repeat;
     background-size: contain;
     align-items: center;
